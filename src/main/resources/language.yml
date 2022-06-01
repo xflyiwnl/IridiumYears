@@ -1,0 +1,35 @@
+language:
+
+  chat-prefix: "&2IridiumYears &8›"
+
+  args:
+    - ""
+    - "{prefix} &7Команды плагина:"
+    - ""
+    - " &2* &2/iy get &8- &7получить год."
+    - " &2* &2/iy set &8- &7получить год."
+    - " &2* &2/iy reload &8- &7получить год."
+    - ""
+    - "&8@ IridiumStudio"
+
+  errors:
+
+    is-not-player: "{prefix} &7Команда только для живых игроков."
+
+    not-have-permission: "{prefix} &7У вас нет прав, чтобы сделать это."
+
+    unknown-cmd: "{prefix} &7Извините, но такой команды не существует."
+
+  command:
+
+    get:
+
+      year: "{prefix} &7Год - &2{year}"
+
+    set:
+
+      successful: "{prefix} &7Вы успешно установили новый год."
+
+    reload:
+
+      reloaded: "{prefix} &7Вы успешно перезагрузили плагин."

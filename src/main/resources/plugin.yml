@@ -1,0 +1,16 @@
+name: IridiumYears
+version: '${project.version}'
+main: me.xflyiwnl.iridiumyears.Main
+api-version: 1.16
+authors: [ xflyiwnl, Detreyk, Iridium ]
+depend:
+  - Towny
+  - PlaceholderAPI
+description: Плагин на года
+website: vk.com/iridiumstudio
+
+commands:
+  iridiumyear:
+    aliases:
+      - year
+      - iy
