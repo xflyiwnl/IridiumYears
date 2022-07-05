@@ -47,6 +47,10 @@ public class YearCommand implements CommandExecutor {
 
         } else if (args[0].equalsIgnoreCase("set")) {
 
+            if (args.length < 2) {
+                return true;
+            }
+
             Year.setYear(Integer.valueOf(args[1]));
 
             player.sendMessage(format(ChatColor.translateAlternateColorCodes('&',
