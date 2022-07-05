@@ -1,14 +1,14 @@
 language:
 
-  chat-prefix: "&2IridiumYears &8›"
+  chat-prefix: "#E6DF9EIridiumYears &8›"
 
   args:
     - ""
     - "{prefix} &7Команды плагина:"
     - ""
-    - " &2* &2/iy get &8- &7получить год."
-    - " &2* &2/iy set &8- &7получить год."
-    - " &2* &2/iy reload &8- &7получить год."
+    - " #E6DF9E* #E6DF9E/iy get &8- &7получить год."
+    - " #E6DF9E* #E6DF9E/iy set &8- &7получить год."
+    - " #E6DF9E* #E6DF9E/iy reload &8- &7получить год."
     - ""
     - "&8@ IridiumStudio"
 
@@ -24,7 +24,7 @@ language:
 
     get:
 
-      year: "{prefix} &7Год - &2{year}"
+      year: "{prefix} &7Год - #E6DF9E{year}"
 
     set:
 

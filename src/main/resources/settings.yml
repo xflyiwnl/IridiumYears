@@ -1,3 +1,16 @@
 settings:
 
+  mode:
+
+    towny:
+
+      enabled: true
+
+    time:
+
+      enabled: true
+
+      hour: 00
+      minute: 00
+
   year: 2022
